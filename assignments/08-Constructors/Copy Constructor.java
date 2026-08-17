@@ -17,7 +17,7 @@ class Student {
 
 public class Main {
     public static void main(String[] args) {
-        Student s1 = new Student("Nithish", 21);
+        Student s1 = new Student("Abhi", 21);
         Student s2 = new Student(s1);   
         s1.display();
         s2.display();
@@ -26,5 +26,5 @@ public class Main {
 
 
 Output:-
-Nithish - 21 years
-Nithish - 21 years
+Abhi - 21 years
+Abhi - 21 years
